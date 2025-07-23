@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+project.archivesBaseName = 'scrapper-clientlib'
+
+dependencies {
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+    implementation group: 'com.squareup.moshi', name: 'moshi', version: '1.9.2'
+    implementation group: 'com.squareup.moshi', name: 'moshi-adapters', version: '1.9.2'
+}
