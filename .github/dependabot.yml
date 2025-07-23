@@ -15,3 +15,4 @@ registries:
     username: "thavaahariharangit@github.com"  # Store username in GitHub Secrets
     password: "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"
     
+    
