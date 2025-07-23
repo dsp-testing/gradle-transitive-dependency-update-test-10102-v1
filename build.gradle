@@ -1,5 +1,11 @@
 repositories {
-    mavenCentral()
+    maven {
+        url = uri("https://jfrogghdemo.jfrog.io/artifactory/dependabot/")
+        credentials {
+            username = "thavaahariharangit@github.com"
+            password = "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"
+        }
+    }
 }
 
 dependencies {
