@@ -1,7 +1,7 @@
 dependencyResolutionManagement {
     repositories {
         maven {
-            url = uri("https://jfrogghdemo.jfrog.io/artifactory/e2e-tests-dependabot-maven-repo/")
+            url = uri("https://jfrogghdemo.jfrog.io/artifactory/dependabot/")
             credentials {
                 username = "thavaahariharangit@github.com"
                 password = "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"
